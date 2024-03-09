@@ -1,0 +1,26 @@
+body {
+    background-color: blanchedalmond;
+}
+
+
+.img1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    article {
+        padding: 10px;
+        border: 1px solid black;
+        width: 25%;
+    }
+}
